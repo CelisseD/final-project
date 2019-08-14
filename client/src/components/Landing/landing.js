@@ -7,11 +7,11 @@ function LandingPage() {
             <h1 className="display-4">TBH</h1>
             <p className="lead">An Honest Approach to Consumer Consciousness</p>
             <hr className="my-4" />
-            <h4>Want to know how your specific purchases impact politics, the environment, and other social causes? At TBH our mission is to help consumers make conscious decisions about where their dollars are going, so we can all leave the world a little better than we found it.</h4><br />
+            <p className="lead">Want to know how your specific purchases impact politics, the environment, and other social causes? At TBH our mission is to help consumers make conscious decisions about where their dollars are going, so we can all leave the world a little better than we found it.</p><br />
 
-            <h4>Use the search feature to look up specific brands and companies, to find out what organizations they donate money to, what positive social causes they support, and what conflicting causes they support.</h4><br />
+            <p className="lead">Use the search feature to look up specific brands and companies, to find out what organizations they donate money to, what positive social causes they support, and what conflicting causes they support.</p><br />
 
-                <div className="col-lg-6">
+                <div className="col-lg-6 offset-lg-3">
                     <div className="input-group">
                         <input type="text" className="form-control" placeholder="Search for..." />
                         <span className="input-group-btn">

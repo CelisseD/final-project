@@ -31,7 +31,7 @@ function Navbar() {
                 <Link to="/profile" className="nav-link">Profile</Link>
               </li>
               <li className="navbar-item">
-                <Link to="/search" className="nav-link">Search</Link>
+                <Link to="/search" className="nav-link">Suggest</Link>
               </li>
               <li className="navbar-item">
                 <Link to="/results" className="nav-link">Results</Link>

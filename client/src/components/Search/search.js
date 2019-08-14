@@ -54,11 +54,12 @@ export default class SearchPage extends Component {
 
     render() {
         return(
+            <div className="container col-lg-6">
             <div style={{marginTop:20}}>
-                <h4>Search a Brand to the Database</h4>
+                <h4>Suggest a Brand or Company to TBH</h4>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                        <label>Brand Name: </label>
+                        <label>Brand/Company Name: </label>
                         <input  type="text"
                                 className="form-control"
                                 value={this.state.brand_name}
@@ -67,19 +68,11 @@ export default class SearchPage extends Component {
                     </div>
                     
                     <div className="form-group">
-                        <label>Search Cause: </label>
+                        <label>What is the Concern:</label>
                         <input  type="text"
                                 className="form-control"
                                 value={this.state.search_cause}
                                 onChange={this.onChangeSearchCause}
-                                />
-                    </div>
-                    <div className="form-group">
-                        <label>Search Organization: </label>
-                        <input  type="text"
-                                className="form-control"
-                                value={this.state.search_org}
-                                onChange={this.onChangeSearchOrg}
                                 />
                     </div>
                     
@@ -87,6 +80,7 @@ export default class SearchPage extends Component {
                         <input type="submit" value="Search" className="btn btn-primary" />
                     </div>
                 </form>
+            </div>
             </div>
         )
     }
