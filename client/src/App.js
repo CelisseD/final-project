@@ -11,6 +11,7 @@ import ResultsPage from "./components/Results/results";
 import DashboardPage from "./components/Dashboard/dashboard";
 import FavoritesPage from "./components/Favorites/favorites";
 import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           {/* <Route exact path="/search" component={SearchPage} /> */}
           {/* <Route exact path="/results" component={ResultsPage} /> */}
         </Switch>
+        <Footer />
       </Router>
     )
   }

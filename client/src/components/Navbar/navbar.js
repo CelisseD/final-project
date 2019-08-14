@@ -45,8 +45,7 @@ function Navbar() {
             </ul>
           </div>
         </nav>
-        <div className="container">
-        <h2>TBH App</h2>
+        {/* <div className="container"> */}
           <Route path="/" exact component={LandingPage} />
           <Route path="/login" component={LoginPage} />
           <Route path="/profile" component={ProfilePage} />
@@ -54,7 +53,7 @@ function Navbar() {
           <Route path="/results" component={ResultsPage} />
           <Route path="/dashboard" component={DashboardPage} />
           <Route path="/favorites" component={FavoritesPage} />
-          </div>
+          {/* </div> */}
         </div>
     )
 }
